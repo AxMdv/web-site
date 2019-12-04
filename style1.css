@@ -1,0 +1,145 @@
+body {
+	max-width: 1720px; 
+	background-color: rgb(191,191,191);
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+  background-color: rgb(255,191,191);
+	width: 80%; 
+  min-height: 100px;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-title {
+  display: block;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 40px;
+}
+
+.title-description {
+  font-size: 20px;
+  display: block;
+}
+
+.exit-button {
+  position: fixed; 
+  top: 20px; 
+  right: 0; 
+  width: 70px; 
+  text-align: center;
+  border: 6px solid blue;
+  box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu {
+  background-color: rgb(191,255,255);
+ 	width: 15%; 
+	display: block;
+}
+
+.menu-list-item {
+  list-style-type: none;
+  padding: 0;
+  text-transform: uppercase;
+  line-height: 40px;
+}
+
+.menu-item-link {
+  text-decoration: none;
+}
+
+.main {
+  background-color: white;
+	width: 60%; 
+  padding-bottom: 30px;
+}
+
+.greetings {
+  display: block;
+  text-align: center;
+}
+
+.goods-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-left: auto;
+}
+
+.good {
+  border: 2px solid pink;
+}
+
+.good:nth-child(3n+2) {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.good:nth-child(n+4) {
+  margin-top: 15px;
+}
+
+.good-picture {
+  width: 160px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.good-image {
+  width: 150px;
+}
+
+.good-info {
+  width: 160px;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.good-name {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.good-link {
+  text-decoration: none;
+  color: black;
+}
+.banner {
+  background-color: rgb(255,255,191);
+ 	width: 25%;
+}
+
+.footer {
+  background-color: rgb(191,255,191);
+	width: 80%; 
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: 1px dotted black;
+}
+
+.contacts-list {
+  padding-left: 0;
+}
+
+.contact-item {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+
+
+
