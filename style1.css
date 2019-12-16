@@ -31,10 +31,11 @@ body {
   position: fixed; 
   top: 20px; 
   right: 0; 
-  width: 70px; 
+  width: auto; 
   text-align: center;
   border: 6px solid blue;
   box-sizing: border-box;
+  background-color:yellow;
 }
 
 .content {
@@ -42,6 +43,7 @@ body {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  
 }
 
 .menu {
@@ -72,51 +74,6 @@ body {
   text-align: center;
 }
 
-.goods-list {
-  display: flex;
-  flex-wrap: wrap;
-  width: 90%;
-  margin-left: auto;
-}
-
-.good {
-  border: 2px solid pink;
-}
-
-.good:nth-child(3n+2) {
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.good:nth-child(n+4) {
-  margin-top: 15px;
-}
-
-.good-picture {
-  width: 160px;
-  padding: 5px;
-  box-sizing: border-box;
-}
-
-.good-image {
-  width: 150px;
-}
-
-.good-info {
-  width: 160px;
-  box-sizing: border-box;
-  padding: 5px;
-}
-
-.good-name {
-  font-size: 12px;
-  text-transform: uppercase;
-}
-
-.good-link {
-  text-decoration: none;
-  color: black;
-}
 .banner {
   background-color: rgb(255,255,191);
  	width: 25%;
@@ -139,7 +96,20 @@ body {
   list-style-type: none;
   margin-left: 0;
 }
+.goods-table {
+	 width: 50%;
+}
 
-
-
-
+.gg {
+	 max-width: 220px;
+	max-height: 220px;
+	display: inline-block;
+}
+img{width:300px;}
+a:hover  {
+    text-decoration: underline; 
+	color: black; 
+          }
+body {
+	background: url(background.jpg); 
+ }
