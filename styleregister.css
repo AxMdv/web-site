@@ -1,0 +1,19 @@
+body {
+	background: url(auth.jpg_large); 
+}
+.loginpage {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 40%;
+    left: 53%;
+    margin: -125px 0 0 -125px;
+}
+.reg {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 43%;
+    left: 53%;
+    margin: -125px 0 0 -125px;
+}

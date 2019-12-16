@@ -1,0 +1,3 @@
+CREATE TABLE `mysql`.`register` ( `id` INT(5) NOT NULL AUTO_INCREMENT , `email` VARCHAR(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , `login` VARCHAR(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , `password` VARCHAR(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+CREATE TABLE `mysql`.`goods` ( `id` INT(5) NOT NULL , `goodtype` VARCHAR(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , `goodname` VARCHAR(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , `gooddescr` VARCHAR(300) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , `cost` INT(4) NOT NULL , `goodphoto` LONGBLOB NOT NULL ) ENGINE = InnoDB;

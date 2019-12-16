@@ -26,5 +26,5 @@ $mysql = new mysqli('localhost','root', '','mysql');
     VALUES('$email', '$login', '$password')");
 
 $mysql->close();}
-
 ?>
+<a href=auth.html>Войти</a>
